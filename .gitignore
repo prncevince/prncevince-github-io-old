@@ -9,6 +9,7 @@
 test.Rmd
 test.html
 # Quarto
+/_freeze/
 /.quarto-cli/
 /.quarto/
 # website hosted content - default Hugo `publishDir` config param
