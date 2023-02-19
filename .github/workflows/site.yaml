@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
 jobs:
   quarto-site:
+    runs-on: ${{ matrix.os  }}
     strategy:
       fail-fast: false
       matrix:
