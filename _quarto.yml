@@ -1,8 +1,15 @@
 project:
   type: website
+  output-dir: _site
+  post-render:
+    - "touch _site/.nojekyll"
 
 website:
   title: "prncevince.github.io"
+  site-url: "https://prncevince.github.io/"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/prncevince/prncevince.github.io"
   navbar:
     right:
       - about.qmd
